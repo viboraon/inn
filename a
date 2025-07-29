@@ -2961,7 +2961,7 @@ btn("Immortality Lord", function()
 	local leftWingPart={}
 	cframes[leftWingPart]=cf_0
 
-	local leftWingAccWeld=getAccWeldFromMesh("112123999475212","")
+	local leftWingAccWeld=getAccWeldFromMesh("17269814619","")
 	leftWingAccWeld.C0=angles(0,3.14,0)
 	leftWingAccWeld.C1=cf_0
 	leftWingAccWeld.Part1=leftWingPart
@@ -2977,7 +2977,7 @@ btn("Immortality Lord", function()
 	local rightWingPart={}
 	cframes[rightWingPart]=cf_0
 
-	local rightWingAccWeld=getAccWeldFromMesh("70558302330214","")
+	local rightWingAccWeld=getAccWeldFromMesh("17269824947","")
 	rightWingAccWeld.C0=angles(0,3.14,0)
 	rightWingAccWeld.C1=cf_0
 	rightWingAccWeld.Part1=rightWingPart
@@ -2993,12 +2993,12 @@ btn("Immortality Lord", function()
 	local swordpart={}
 	cframes[swordpart]=cf_0
 
-	local swordAccWeld0=getAccWeldFromMesh("17326476901","") 
+	local swordAccWeld0=getAccWeldFromMesh("17326555172","")
 	swordAccWeld0.C0=cf(-0.0023765564,2.14191723,3.825109,-1,0,0,0,-0.519688249,-0.85435611,0,-0.854355931,0.519688308)
 	swordAccWeld0.C1=cf_0
 	swordAccWeld0.Part1=swordpart
-	local swordAccWeld1=getAccWeldFromMesh("5278721954","")
-        swordAccWeld1.C0=cf(-3, 3.3, -3, 1, 0, 0, 0, 0.9961947, -0.0871557, 0, 0.0871557, 0.9961947)
+	local swordAccWeld1=getAccWeldFromMesh("17326476901","")
+	swordAccWeld1.C0=cf(-0.00237464905,-1.31204176,-3.18902349,-1,0,0,0,-0.519688249,-0.85435611,0,-0.854355931,0.519688308)
 	swordAccWeld1.C1=cf_0
 	swordAccWeld1.Part1=swordpart
 
