@@ -2915,7 +2915,7 @@ btn("Immortality Lord", function()
 	accessorylimbs={
 		{meshid="126825022897778",textureid="",C0=cf_0,Name="Torso"},
 		{meshid="17269753087",textureid="",C0=angles(0,3.14,0),Name="Head"},
-		{meshid="111563274868006",textureid="",C0 = cf(1.50995803e-08, -1.07200003, -0.100000001, -1, 0, 1.50995803e-07, 0, 1, 0, -1.50995803e-07, -10.3, -1),Name="Head"},
+		{meshid="111563274868006",textureid="",C0 = cf(1.50995803e-08, -1.07200003, -0.100000001, -1, 0, 1.50995803e-07, 0, 1, 0, -1.50995803e-07, -10.1, -1),Name="Head"},
 		{meshid="138744606849121",textureid="",C0=angles(0,0,1.5707963267948966),Name="Left Arm"},
 		{meshid="138744606849121",textureid="",C0=angles(0,0,1.5707963267948966),Name="Right Arm"},
 		{meshid="138744606849121",textureid="",C0=angles(0,0,1.5707963267948966),Name="Left Leg"},
@@ -2961,7 +2961,7 @@ btn("Immortality Lord", function()
 	local leftWingPart={}
 	cframes[leftWingPart]=cf_0
 
-	local leftWingAccWeld=getAccWeldFromMesh("17269814619","")
+	local leftWingAccWeld=getAccWeldFromMesh("70558302330214","")
 	leftWingAccWeld.C0=angles(0,3.14,0)
 	leftWingAccWeld.C1=cf_0
 	leftWingAccWeld.Part1=leftWingPart
@@ -2977,7 +2977,7 @@ btn("Immortality Lord", function()
 	local rightWingPart={}
 	cframes[rightWingPart]=cf_0
 
-	local rightWingAccWeld=getAccWeldFromMesh("17269824947","")
+	local rightWingAccWeld=getAccWeldFromMesh("112123999475212","")
 	rightWingAccWeld.C0=angles(0,3.14,0)
 	rightWingAccWeld.C1=cf_0
 	rightWingAccWeld.Part1=rightWingPart
