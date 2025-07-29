@@ -2993,7 +2993,7 @@ btn("Immortality Lord", function()
 	local swordpart={}
 	cframes[swordpart]=cf_0
 
-	local swordAccWeld0=getAccWeldFromMesh("17326555172","")
+	local swordAccWeld0=getAccWeldFromMesh("5278721954","")
 	swordAccWeld0.C0=cf(-0.0023765564,2.14191723,3.825109,-1,0,0,0,-0.519688249,-0.85435611,0,-0.854355931,0.519688308)
 	swordAccWeld0.C1=cf_0
 	swordAccWeld0.Part1=swordpart
